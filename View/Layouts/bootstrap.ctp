@@ -33,20 +33,19 @@
       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
       <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
-
-    <style type="text/css">
-    	body{ padding: 70px 0px; }
-    </style>
-
   </head>
 
   <body>
 
     <div class="container">
 
+			<?php echo $this->element('navbar'); ?>
+
 			<?php echo $this->Session->flash(); ?>
 
 			<?php echo $this->fetch('content'); ?>
+
+			<?php echo $this->element('footer'); ?>
 
     </div><!-- /.container -->
 

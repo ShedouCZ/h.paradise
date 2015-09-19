@@ -31,7 +31,7 @@ module.exports = function(grunt) {
 			options: {
 				map: false,
 				processors: [
-					require('autoprefixer-core')({browsers: ['last 2 versions']}).postcss
+					require('autoprefixer-core')({sers: ['last 2 versions']}).postcss
 				]
 			},
 			dist: {
@@ -99,12 +99,12 @@ module.exports = function(grunt) {
 					//'Vendor/es5-shim/es5-shim.js',
 					//'Vendor/es5-shim/es5-sham.js',
 					'Vendor/jquery/dist/jquery.js',
-					'Vendor/moment/moment.js',
+					//'Vendor/moment/moment.js',
 					//'js/modernizr.preserve3d.js', // brings modernizr for defunctr
-					'js/modernizr.custom.svg.js',   // // brings modernizr for defunctr
-					'Vendor/defunctr/src/defunctr.js',
-					'Vendor/moment-range/lib/moment-range.js',
-					'js/app.js'
+					//'js/modernizr.custom.svg.js',   // // brings modernizr for defunctr
+					//'Vendor/defunctr/src/defunctr.js',
+					//'Vendor/moment-range/lib/moment-range.js',
+					'js/app.js',
 				],
 				dest: 'webroot/js/site-pre.js',
 				nonull: true,
@@ -115,20 +115,21 @@ module.exports = function(grunt) {
 			js_post: {
 				src: [
 					//'Vendor/react/react.js',
-					'Vendor/moment/locale/cs.js',
-					'Vendor/moment-timezone/builds/moment-timezone-with-data-2010-2020.min.js',
-					'Vendor/bootstrap/js/transition.js',
-					'Vendor/bootstrap/js/collapse.js',
+					//'Vendor/moment/locale/cs.js',
+					//'Vendor/moment-timezone/builds/moment-timezone-with-data-2010-2020.min.js',
+					//'Vendor/bootstrap/js/transition.js',
+					//'Vendor/bootstrap/js/collapse.js',
 					'Vendor/bootstrap/dist/js/bootstrap.js',
-					'Vendor/eonasdan-bootstrap-datetimepicker/src/js/bootstrap-datetimepicker.js',
+					//'Vendor/eonasdan-bootstrap-datetimepicker/src/js/bootstrap-datetimepicker.js',
 					//'dist/jsx-combined.js',
-					'Vendor/jquery-serialize-object/jquery.serialize-object.js',
-					'Vendor/H5F/h5f.min.js', // ie9 validation library
-					'Vendor/bootstrap-validator/js/validator.js',
+					//'Vendor/jquery-serialize-object/jquery.serialize-object.js',
+					//'Vendor/H5F/h5f.min.js', // ie9 validation library
+					//'Vendor/bootstrap-validator/js/validator.js',
 					'Vendor/bootbox.js/bootbox.js',
-					'Vendor/hammerjs/hammer.js',
-					'Vendor/jquery-hammerjs/jquery.hammer.js',
+					//'Vendor/hammerjs/hammer.js',
+					//'Vendor/jquery-hammerjs/jquery.hammer.js',
 					'Vendor/Sortable/Sortable.js',
+					'Vendor/dropzone/dist/dropzone.js',
 					'js/dom-ready.js'
 				],
 				dest: 'webroot/js/site-post.js',
@@ -137,22 +138,8 @@ module.exports = function(grunt) {
 					separator: ';\n'
 				}
 			},
-			js_air_mode: {
-				src: [
-					'Vendor/bootstrap/dist/js/bootstrap.js',
-					'Vendor/summernote/dist/summernote.js',
-					'Vendor/summernote/lang/summernote-cs-CZ.js',
-					'js/dom-ready.js'
-				],
-				dest: 'webroot/js/air-mode.js',
-				nonull: true,
-				options: {
-					separator: ';\n'
-				}
-			},
 			js_admin: {
 				src: [
-					'node_modules/grunt-contrib-handlebars/node_modules/handlebars/dist/handlebars.runtime.js',
 					'Vendor/summernote/dist/summernote.js',
 					'Vendor/summernote/lang/summernote-cs-CZ.js',
 					'Vendor/html5-history-api/history.iegte8.js',
@@ -162,6 +149,7 @@ module.exports = function(grunt) {
 					'Vendor/dropzone/dist/dropzone.js',
 					'Vendor/slug/slug.js',
 					'Vendor/Jed/jed.js',
+					'node_modules/grunt-contrib-handlebars/node_modules/handlebars/dist/handlebars.runtime.js',
 					'dist/js/handlebars.js',
 					'dist/js/messages.js',
 				],
@@ -173,7 +161,7 @@ module.exports = function(grunt) {
 			},
 			css: {
 				src: [
-					'css/overrides/*.css',
+					'Vendor/bootstrap/dist/css/*.css',
 					'css/*.css'
 				],
 				dest: 'webroot/css/site.css',
@@ -182,32 +170,10 @@ module.exports = function(grunt) {
 					separator: '\n'
 				}
 			},
-			css_air_mode: {
-				src: [
-					// summenote for air mode and its dependecies on bootstrap
-					'dist/air-mode.css',
-					'Vendor/font-awesome/css/font-awesome.css',
-					'Vendor/summernote/dist/summernote.css'
-				],
-				dest: 'webroot/css/air-mode.css',
-				nonull: true,
-				options: {
-					separator: '\n'
-				}
-			},
 			css_admin: {
 				src: [
-					'Vendor/font-awesome/css/font-awesome.css',
-					'Vendor/fullcalendar/dist/fullcalendar.css',
-					'Vendor/summernote/dist/summernote.css',
-					'Vendor/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.css',
-					'dist/bs-custom.css',
-					'dist/bootstrap.css',
-					'css/overrides/eonasdan-datetimepicker-bs.css',
-					'css/bootstrap-validation.css',
-					'css/admin/*.css',
 				],
-				dest: 'webroot/css/site-admin.css',
+				dest: 'webroot/css/admin-site.css',
 				nonull: true,
 				options: {
 					separator: '\n'
@@ -216,20 +182,12 @@ module.exports = function(grunt) {
 		},
 		// compile less into css
 		less: {
-			air_mode: {
-				options: {
-					compress: true
-				},
-				files: {
-					'dist/air-mode.css':'css/less/air-mode.less',
-				}
-			},
 			development: {
 				options: {
 					compress: true
 				},
 				files: {
-					'dist/bootstrap.css':'css/less/bootstrap.less',
+					'css/bootstrap.css':'css/less/bootstrap.less',
 				}
 			}
 		},
@@ -250,7 +208,6 @@ module.exports = function(grunt) {
 			site: {
 				files: {
 					'webroot/css/site.css': 'webroot/css/site.css',
-					'webroot/css/legacy.css': 'webroot/css/legacy.css'
 				}
 			}
 		},
@@ -299,8 +256,8 @@ module.exports = function(grunt) {
 
 	// Task definition
 	grunt.registerTask('default', ['scripts', 'stylesheets', 'copy']);
-	grunt.registerTask('stylesheets', ['less', 'concat:css', 'concat:css_admin', 'concat:css_air_mode', /*'postcss',*/ 'cssmin']);
-	grunt.registerTask('scripts', ['handlebars', /*'react',*/ 'concat:js', 'concat:js_post', 'concat:js_admin', 'concat:js_air_mode' /*, 'uglify'*/]);
+	grunt.registerTask('stylesheets', ['less', 'concat:css', 'concat:css_admin', /*'postcss',*/ 'cssmin']);
+	grunt.registerTask('scripts', ['handlebars', /*'react',*/ 'concat:js', 'concat:js_post', 'concat:js_admin'/*, 'uglify'*/]);
 
 	grunt.registerTask('locales', ['po2json', 'json']);
 	//grunt.registerTask('stylesheets', ['less', 'concat:css', 'cssmin']);
