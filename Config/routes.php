@@ -16,8 +16,11 @@
  * its action called 'display', and we pass a param to select the view file
  * to use (in this case, /app/View/Pages/home.ctp)...
  */
-	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'home'));
-	Router::connect('/o-nas', array('controller' => 'pages', 'action' => 'display', 'about'));
+	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'domu'));
+	Router::connect('/o-nas', array('controller' => 'pages', 'action' => 'display', 'o-nas'));
+	Router::connect('/kontakt', array('controller' => 'pages', 'action' => 'display', 'kontakt'));
+	Router::connect('/rezervace', array('controller' => 'pages', 'action' => 'display', 'rezervace'));
+	Router::connect('/nabitka', array('controller' => 'pages', 'action' => 'display', 'nabitka'));
 
 
 /**

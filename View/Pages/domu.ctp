@@ -1,17 +1,10 @@
-<div class="container">
-
-    <!-- The justified navigation menu is meant for single line per list item.
-    Multiple lines will require custom code not provided by Bootstrap. -->
-
-
     <!-- Jumbotron -->
     <div class="jumbotron">
-        <h1>Marketing stuff!</h1>
+        <h1>Hotel Paradise</h1>
         <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.</p>
-        <p><a class="btn btn-lg btn-success" href="#" role="button">Get started today</a></p>
+        <p><a class="btn btn-lg btn-success" href="/rezervace" role="button">Rezervujte si pobyt dnes!</a></p>
     </div>
 
-    <!-- Example row of columns -->
     <div class="row">
         <div class="col-lg-4">
             <h2>Safari bug warning!</h2>
@@ -30,5 +23,3 @@
             <p><a class="btn btn-primary" href="#" role="button">View details »</a></p>
         </div>
     </div>
-    
-</div>
