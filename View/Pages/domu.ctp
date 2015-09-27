@@ -1,25 +1,34 @@
     <!-- Jumbotron -->
     <div class="jumbotron">
+        <img src='img/logo.png' style="margin-top: 110px; float: right; width: 300px;">
         <h1>Hotel Paradise</h1>
-        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.</p>
+        <p class="lead">je fiktivní rodinný hotel, který Vám nabízí ubytování
+                        v pokojích vybavených dle standardů Oficiální jednotné
+                        klasifikace ubytovacích zařízení ČR. Příjemný pobyt
+                        můžete strávit ve dvoulůžkových a třílůžkových
+                        pokojích s možností přistýlky. K dispozici jsou také dvě
+                        studia (2 samostatné pokoje a společná koupelna). Hotel
+                        disponuje 58 lůžky s možností 10 přistýlek. Každý pokoj
+                        Vám nabídne jedinečný pohled na téměř všechny dominanty
+                        Mikulova, zejména na zámek Mikulov.</p>
         <p><a class="btn btn-lg btn-success" href="/rezervace" role="button">Rezervujte si pobyt dnes!</a></p>
     </div>
 
     <div class="row">
         <div class="col-lg-4">
-            <h2>Safari bug warning!</h2>
-            <p class="text-danger">As of v8.0, Safari exhibits a bug in which resizing your browser horizontally causes rendering errors in the justified nav that are cleared upon refreshing.</p>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-primary" href="#" role="button">View details »</a></p>
+            <h2>O nás</h2>
+            <p>Chcete o nás vědět víc? Tak neváhejte a předčtěte si o všech
+                našich službách. Stačí kliknout na tlačítko více.</p>
+            <p><a class="btn btn-primary" href="/o-nas" role="button">Více »</a></p>
         </div>
         <div class="col-lg-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-primary" href="#" role="button">View details »</a></p>
+            <h2>Ceník</h2>
+            <p>Za málo peněz si můžete u nás koupit velmi kvalitní služby. Přesvědčte se sami.</p>
+            <p><a class="btn btn-primary" href="/cenik" role="button">Více »</a></p>
         </div>
         <div class="col-lg-4">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
-            <p><a class="btn btn-primary" href="#" role="button">View details »</a></p>
+            <h2>Kontakty</h2>
+            <p>Zeptejte se nás na cokoliv ohledně našich služeb rádi vám odpovíme!</p>
+            <p><a class="btn btn-primary" href="/kontakt" role="button">Více »</a></p>
         </div>
     </div>

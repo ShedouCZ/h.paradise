@@ -1,8 +1,8 @@
 <?php
 	$links = array(
-		'Domů' => '/',
+		'Domů' => '/domu',
 		'O nás' => '/o-nas',
-		'Co nabízíme' => '/nabitka',
+		'Ceník' => '/cenik',
         'Rezervace' => '/rezervace',
 		'Kontakt' => '/kontakt',
 	);
@@ -11,7 +11,7 @@
 <nav class="navbar navbar-default">
     <div class="container">
         <div class="navbar-header">
-            <a class="navbar-brand" href="/">Hotel Paradise</a>
+            <a class="navbar-brand" href="/domu">Hotel Paradise</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
@@ -27,7 +27,7 @@
 				?>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="">Čeština</a></li>
+                <li class="active"><a href="">Čeština</a></li>
                 <li><a href="" style="margin-right: 50px;">English</a></li>
             </ul>
         </div><!--/.nav-collapse -->
