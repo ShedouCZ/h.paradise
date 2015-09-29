@@ -4,3 +4,17 @@ input {
 select {
     margin-left: 5px;
 }
+
+.form-control {
+    margin-left: 20px;
+    display: inline;
+    width: 25%;
+}
+
+label {
+    width: 100px;
+}
+
+.date {
+    width: auto;
+}

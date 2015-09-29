@@ -17,11 +17,22 @@
  * to use (in this case, /app/View/Pages/home.ctp)...
  */
 	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'domu'));
+
 	Router::connect('/domu', array('controller' => 'pages', 'action' => 'display', 'domu'));
 	Router::connect('/o-nas', array('controller' => 'pages', 'action' => 'display', 'o-nas'));
 	Router::connect('/kontakt', array('controller' => 'pages', 'action' => 'display', 'kontakt'));
-	Router::connect('/rezervace', array('controller' => 'pages', 'action' => 'display', 'rezervace'));
+	Router::connect('/rezervace', array('controller' => 'reservations', 'action' => 'add'));
 	Router::connect('/cenik', array('controller' => 'pages', 'action' => 'display', 'cenik'));
+
+	Router::connect('/home', array('controller' => 'pages', 'action' => 'display', 'home'));
+	Router::connect('/about', array('controller' => 'pages', 'action' => 'display', 'about'));
+	Router::connect('/contact', array('controller' => 'pages', 'action' => 'display', 'contact'));
+	Router::connect('/reservation', array('controller' => 'pages', 'action' => 'display', 'reservation'));
+	Router::connect('/price-list', array('controller' => 'pages', 'action' => 'display', 'price-list'));
+
+	Router::connect('/login', array('controller' => 'users', 'action' => 'login'));
+	Router::connect('/logout', array('controller' => 'users', 'action' => 'logout'));
+	Router::connect('/admin', array('controller' => 'reservations', 'action' => 'index', 'admin' => true));
 
 
 /**

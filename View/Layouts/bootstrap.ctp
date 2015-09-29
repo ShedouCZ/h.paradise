@@ -39,7 +39,7 @@
 
     <div class="container">
 
-			<?php echo $this->element('navbar'); ?>
+			<?php //echo $this->element('navbar'); ?>
 
 			<?php echo $this->Session->flash(); ?>
 

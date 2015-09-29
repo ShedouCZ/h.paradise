@@ -1,5 +1,7 @@
 <?php
 	$links = array(
+		'Rezervace'  => '/admin/reservations',
+		'Typy Pokojů'  => '/admin/roomtypes',
 	);
 ?>
 <div class="actions">
