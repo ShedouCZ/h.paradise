@@ -32,8 +32,6 @@
         disponuje 58 lůžky s možností 10 přistýlek. Každý pokoj Vám nabídne jedinečný
         pohled na téměř všechny dominanty Mikulova, zejména na zámek Mikulov.
         <img src='img/hotel.jpg' style="float: right; width:500px; margin-top:10px; border:10px outset silver;"/>
-        ">
-
         <br><br><br><br><br><br>
         Region: Jižní Morava<br>
         Oblast: Pálava a Lednicko – Valtický areál<br>
@@ -84,7 +82,6 @@
         </p>
     </p>
 </div>
-
 <div class="jumbotron">
     <h1>Nabízené služby</h1>
     <p class="lead">

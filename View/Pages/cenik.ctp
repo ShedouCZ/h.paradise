@@ -138,7 +138,7 @@
     <p class="lead">
         <table class='table' style="width:100%" >
             <tr>
-                <td><h4>Typ masáže</h4></td>
+                <td><h4>Typ koupele</h4></td>
                 <td><h4>Doba trvání</h4></td>
                 <td><h4>Cena</h4></td>
             </tr>
@@ -195,7 +195,7 @@
         <br>
     </p>
 
-    <h3>Krytý bazén</h3>
+    <h3>Kryté bazény</h3>
     <p class="lead">
         <table class='table' style="width:100%" >
             <tr>

@@ -40,7 +40,7 @@
     <div class="row">
         <div class="col-lg-4">
             <h2>O nás</h2>
-            <p>Chcete o nás vědět víc? Tak neváhejte a předčtěte si o všech
+            <p>Chcete o nás vědět víc? Tak neváhejte a přečtěte si o všech
                 našich službách. Stačí kliknout na tlačítko více.</p>
                 <p><a class="btn btn-primary" href="/o-nas" role="button">Více »</a></p>
             </div>

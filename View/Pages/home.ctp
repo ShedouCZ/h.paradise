@@ -25,33 +25,34 @@
 <div class="jumbotron">
     <img src='img/logo.png' style="margin-top: 110px; float: right; width: 300px;">
     <h1>Hotel Paradise</h1>
-    <p class="lead">je fiktivní rodinný hotel, který Vám nabízí ubytování
-        v pokojích vybavených dle standardů Oficiální jednotné
-        klasifikace ubytovacích zařízení ČR. Příjemný pobyt
-        můžete strávit ve dvoulůžkových a třílůžkových
-        pokojích s možností přistýlky. K dispozici jsou také dvě
-        studia (2 samostatné pokoje a společná koupelna). Hotel
-        disponuje 58 lůžky s možností 10 přistýlek. Každý pokoj
-        Vám nabídne jedinečný pohled na téměř všechny dominanty
-        Mikulova, zejména na zámek Mikulov.</p>
-        <p><a class="btn btn-lg btn-success" href="/rezervace" role="button">Rezervujte si pobyt dnes!</a></p>
+    <p class="lead">
+        is a fictional family hotel which offers accommodation
+        in rooms furnished according to the standards of Official Standard
+        classification of accommodation facilities in Czech republic.
+        You can spend your pleasant stay in double and triple
+        rooms with extra beds. There are also two
+        studios (2 separate rooms and shared bathroom). Hotel
+        has 58 beds with 10 extra beds. Each room
+        will offer a unique view of almost all the landmarks of
+        Mikulov, especially the Mikulov Castle.
+    </p>
+        <p><a class="btn btn-lg btn-success" href="/rezervace" role="button">Book your stay today!</a></p>
     </div>
 
     <div class="row">
         <div class="col-lg-4">
-            <h2>O nás</h2>
-            <p>Chcete o nás vědět víc? Tak neváhejte a předčtěte si o všech
-                našich službách. Stačí kliknout na tlačítko více.</p>
-                <p><a class="btn btn-primary" href="/o-nas" role="button">Více »</a></p>
+            <h2>About</h2>
+            <p>Want to know more about us? So go ahead and read about all our services. Just click on more.</p>
+                <p><a class="btn btn-primary" href="/o-nas" role="button">More »</a></p>
             </div>
             <div class="col-lg-4">
-                <h2>Ceník</h2>
-                <p>Za málo peněz si můžete u nás koupit velmi kvalitní služby. Přesvědčte se sami.</p>
-                <p><a class="btn btn-primary" href="/cenik" role="button">Více »</a></p>
+                <h2>Price list</h2>
+                <p>For little money you can buy from us a very good services. See for yourself.</p>
+                <p><a class="btn btn-primary" href="/cenik" role="button">More »</a></p>
             </div>
             <div class="col-lg-4">
-                <h2>Kontakty</h2>
-                <p>Zeptejte se nás na cokoliv ohledně našich služeb rádi vám odpovíme!</p>
-                <p><a class="btn btn-primary" href="/kontakt" role="button">Více »</a></p>
+                <h2>Contact</h2>
+                <p>Ask us anything about our service we will be happy to answer!</p>
+                <p><a class="btn btn-primary" href="/kontakt" role="button">More »</a></p>
             </div>
         </div>

@@ -21,15 +21,11 @@
     </nav>
 </div>
 
-<div class="col-md-8">
-    <p>asdfhldmsahflkdshakjfhkdsavhkjdhskvajh kjdshvakjhf dskja hkjadshvh sakjvhkjlsvhlkjhasjvkshkjadh</p>
-</div>
-<div class="col-md-4">
-    <p>asdfhldmsahflkdshakjfhkdsavhkjdhskvajh kjdshvakjhf dskja hkjadshvh sakjvhkjlsvhlkjhasjvkshkjadh</p>
-</div>
-<div class="col-md-8">
-    <p>asdfhldmsahflkdshakjfhkdsavhkjdhskvajh kjdshvakjhf dskja hkjadshvh sakjvhkjlsvhlkjhasjvkshkjadh</p>
-</div>
-<div class="col-md-4">
-    <p>asdfhldmsahflkdshakjfhkdsavhkjdhskvajh kjdshvakjhf dskja hkjadshvh sakjvhkjlsvhlkjhasjvkshkjadh</p>
+<!-- Jumbotron -->
+<div class="jumbotron">
+    <h1>Hotel Paradise</h1>
+    <h4>E-mail: H.Paradise@seznam.cz</h4>
+    <h4>IČO: </h4>
+    <h4>Ředitel: </h4>
+    <h4>Zástupce ředitele: </h4>
 </div>
