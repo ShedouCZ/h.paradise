@@ -6,20 +6,6 @@ class ReservationsController extends AppController {
 	public $components = array('Paginator', 'Session');
 
 
-	public function index() {
-		$this->Reservation->recursive = 0;
-		$this->set('reservations', $this->Paginator->paginate());
-	}
-
-
-	public function view($id = null) {
-		if (!$this->Reservation->exists($id)) {
-			throw new NotFoundException(__('Invalid reservation'));
-		}
-		$options = array('conditions' => array('Reservation.' . $this->Reservation->primaryKey => $id));
-		$this->set('reservation', $this->Reservation->find('first', $options));
-	}
-
 	public function add() {
 		if ($this->request->is('post')) {
 			$this->Reservation->create();
@@ -33,39 +19,6 @@ class ReservationsController extends AppController {
 		}
 		$roomTypes = $this->Reservation->RoomType->find('list');
 		$this->set(compact('roomTypes'));
-	}
-
-	public function edit($id = null) {
-		if (!$this->Reservation->exists($id)) {
-			throw new NotFoundException(__('Invalid reservation'));
-		}
-		if ($this->request->is(array('post', 'put'))) {
-			if ($this->Reservation->save($this->request->data)) {
-				$this->Session->setFlash(__('The reservation has been saved.'), 'default', array('class' => 'alert alert-success'));
-				return $this->redirect(array('action' => 'index'));
-			} else {
-				$this->Session->setFlash(__('The reservation could not be saved. Please, try again.'), 'default', array('class' => 'alert alert-danger'));
-			}
-		} else {
-			$options = array('conditions' => array('Reservation.' . $this->Reservation->primaryKey => $id));
-			$this->request->data = $this->Reservation->find('first', $options);
-		}
-		$roomTypes = $this->Reservation->RoomType->find('list');
-		$this->set(compact('roomTypes'));
-	}
-
-	public function delete($id = null) {
-		$this->Reservation->id = $id;
-		if (!$this->Reservation->exists()) {
-			throw new NotFoundException(__('Invalid reservation'));
-		}
-		$this->request->onlyAllow('post', 'delete');
-		if ($this->Reservation->delete()) {
-			$this->Session->setFlash(__('The reservation has been deleted.'), 'default', array('class' => 'alert alert-success'));
-		} else {
-			$this->Session->setFlash(__('The reservation could not be deleted. Please, try again.'), 'default', array('class' => 'alert alert-danger'));
-		}
-		return $this->redirect(array('action' => 'index'));
 	}
 
 	public function admin_index() {

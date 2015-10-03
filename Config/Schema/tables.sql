@@ -31,6 +31,13 @@ CREATE TABLE `room_types` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_czech_ci;
 
+INSERT INTO `room_types` (`id`, `room_type`, `price_night`, `price_person`) VALUES
+(1,	'Jednolůžkový apartmán',	500,	400),
+(2,	'Dvoulůžkový apartmán',	600,	1100),
+(3,	'Třílůžkový apartmán',	700,	2000),
+(4,	'Čtyřlůžkový apartmán',	900,	2500),
+(5,	'Čtyřlůžkový pokoj',	800,	2300),
+(6,	'Premium (pouze 2 osoby)',	1500,	3000);
 
 DROP TABLE IF EXISTS `users`;
 CREATE TABLE `users` (
@@ -46,4 +53,4 @@ CREATE TABLE `users` (
 INSERT INTO `users` (`id`, `username`, `password`, `mail`, `created`, `modified`) VALUES
 (1,	'admin',	'$2a$10$oTInOZNrfJqOdFEjVAb00ugqLRwquceqkt39aam1pY/4m1/py4.nq',	NULL,	'2015-06-24 10:37:25',	'2015-06-24 10:37:25');
 
--- 2015-09-29 18:12:55
+-- 2015-10-03 19:58:31

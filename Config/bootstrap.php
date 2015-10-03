@@ -13,6 +13,16 @@
  * @since         CakePHP(tm) v 0.10.8.2117
  */
 
+CakePlugin::load(array(
+	'BootstrapCake',
+	'Bs3Helpers',
+	//'Configuration',
+	'ClearCache'
+	//'RangeParser',
+	//'Localized',
+	//'DebugKit',
+));
+
 // Setup a 'default' cache configuration for use in the application.
 Cache::config('default', array('engine' => 'File'));
 
@@ -77,6 +87,42 @@ Cache::config('default', array('engine' => 'File'));
  *
  * ));
  */
+
+
+Configure::write('Bs3.Form.styles', array(
+	'horizontal' => array(
+		'formDefaults' => array(
+			//'submitDiv' => 'col-sm-10 col-sm-offset-2' // this adds another submit
+		),
+		'inputDefaults' => array(
+			'label' => array(
+				'class' => 'col-sm-2 control-label'
+			),
+			'wrap' => 'col-sm-9',
+			'div' => null,
+		)
+	),
+	'horizontal-wide' => array(
+		'formDefaults' => array(
+			//'submitDiv' => 'col-sm-10 col-sm-offset-2' // this adds another submit
+		),
+		'inputDefaults' => array(
+			'label' => array(
+				'class' => 'col-sm-1 control-label'
+			),
+			'wrap' => 'col-sm-11 input-group',
+			'div' => null,
+		)
+	),
+	'inline' => array(
+		'inputDefaults' => array(
+			'label' => array(
+				'class' => 'sr-only'
+			),
+		)
+	)
+));
+
 Configure::write('Dispatcher.filters', array(
 	'AssetDispatcher',
 	'CacheDispatcher'
@@ -96,3 +142,5 @@ CakeLog::config('error', array(
 	'types' => array('warning', 'error', 'critical', 'alert', 'emergency'),
 	'file' => 'error',
 ));
+
+Configure::write('Config.language', 'ces');
