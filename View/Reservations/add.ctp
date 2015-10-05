@@ -1,7 +1,7 @@
 <div class="reservations form">
 
 	<div class="masthead">
-		<nav class="navbar navbar-default">
+		<nav class="navbar navbar-default" style="margin-top: 20px;">
 			<div class="container">
 				<div class="navbar-header">
 					<a class="navbar-brand" href="/domu">Hotel Paradise</a>
@@ -16,7 +16,7 @@
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
 						<li class="active"><a href="/rezervace">Čeština</a></li>
-						<li><a href="/rezervation" style="margin-right: 50px;">English</a></li>
+						<li><a href="" style="margin-right: 50px;">English</a></li>
 					</ul>
 				</div>
 			</div>

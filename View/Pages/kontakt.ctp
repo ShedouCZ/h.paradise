@@ -1,5 +1,5 @@
 <div class="masthead">
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default" style="margin-top: 20px;">
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand" href="/domu">Hotel Paradise</a>
