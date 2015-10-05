@@ -27,7 +27,7 @@
 	Router::connect('/home', array('controller' => 'pages', 'action' => 'display', 'home'));
 	Router::connect('/about', array('controller' => 'pages', 'action' => 'display', 'about'));
 	Router::connect('/contact', array('controller' => 'pages', 'action' => 'display', 'contact'));
-	Router::connect('/reservation', array('controller' => 'pages', 'action' => 'display', 'reservation'));
+	Router::connect('/reservation', array('controller' => 'reservations', 'action' => 'add'));
 	Router::connect('/price-list', array('controller' => 'pages', 'action' => 'display', 'price-list'));
 
 	Router::connect('/login', array('controller' => 'users', 'action' => 'login'));
