@@ -5,6 +5,11 @@ class ReservationsController extends AppController {
 
 	public $components = array('Paginator', 'Session');
 
+	// declare public actions
+	public function beforeFilter() {
+		parent::beforeFilter();
+		$this->Auth->allow('add');
+	}
 
 	public function add() {
 		if ($this->request->is('post')) {
