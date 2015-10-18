@@ -2,7 +2,7 @@
 App::uses('AppModel', 'Model');
 
 class RoomType extends AppModel {
-	public $displayField = 'id';
+	public $displayField = 'room_type';
 
 
 	//The Associations below have been created with all possible keys, those that are not needed can be removed

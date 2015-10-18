@@ -34,7 +34,7 @@
             <tr>
                 <td>Single Apartment</td>
                 <td>500 CZK incl. breakfast</td>
-                <td>400 CZK incl. breakfast</td>
+                <td>500 CZK incl. breakfast</td>
             </tr>
             <tr>
                 <td>Double Apartment</td>

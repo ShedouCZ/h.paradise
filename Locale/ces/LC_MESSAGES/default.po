@@ -1,0 +1,348 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: 2015-10-18 11:27+0200\n"
+"Language-Team: EMAIL@ADDRESS\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"POT-Creation-Date: \n"
+"X-Generator: Poedit 1.8.5\n"
+"Last-Translator: \n"
+"Language: cs_CZ\n"
+
+#: /Elements/admin_navigation.ctp:9
+msgid "Menu"
+msgstr "Menu"
+
+#: /Reservations/add.ctp:33 /Reservations/admin_add.ctp:24
+#: /Reservations/admin_edit.ctp:28 /Reservations/admin_view.ctp:40
+#: /RoomTypes/admin_view.ctp:72
+msgid "Name"
+msgstr "Jméno"
+
+#: /Reservations/add.ctp:36 /Reservations/admin_add.ctp:27
+#: /Reservations/admin_edit.ctp:31 /Reservations/admin_view.ctp:46
+#: /RoomTypes/admin_view.ctp:73
+msgid "E-mail"
+msgstr "E-mail"
+
+#: /Reservations/add.ctp:39 /Reservations/admin_add.ctp:30
+#: /Reservations/admin_edit.ctp:34 /Reservations/admin_view.ctp:52
+#: /RoomTypes/admin_view.ctp:74
+msgid "Phone"
+msgstr "Telefonní číslo"
+
+#: /Reservations/add.ctp:42 /Reservations/admin_add.ctp:33
+#: /Reservations/admin_edit.ctp:37 /Reservations/admin_view.ctp:58
+#: /RoomTypes/admin_view.ctp:75
+msgid "From"
+msgstr "Od"
+
+#: /Reservations/add.ctp:45 /Reservations/admin_add.ctp:36
+#: /Reservations/admin_edit.ctp:40 /Reservations/admin_view.ctp:64
+#: /RoomTypes/admin_view.ctp:76
+msgid "To"
+msgstr "Do"
+
+#: /Reservations/add.ctp:48 /Reservations/admin_add.ctp:39
+#: /Reservations/admin_edit.ctp:43 /RoomTypes/admin_view.ctp:77
+msgid "Room Type Id"
+msgstr "Typ pokoje ID"
+
+#: /Reservations/add.ctp:51 /Reservations/admin_add.ctp:42
+#: /Reservations/admin_edit.ctp:46 /Reservations/admin_view.ctp:77
+#: /RoomTypes/admin_view.ctp:78
+msgid "Adults"
+msgstr "Dospělí"
+
+#: /Reservations/add.ctp:54 /Reservations/admin_add.ctp:45
+#: /Reservations/admin_edit.ctp:49 /Reservations/admin_view.ctp:83
+#: /RoomTypes/admin_view.ctp:79
+msgid "Kids"
+msgstr "Děti"
+
+#: /Reservations/add.ctp:58 /Reservations/admin_add.ctp:49
+#: /Reservations/admin_edit.ctp:53 /RoomTypes/admin_add.ctp:34
+#: /RoomTypes/admin_edit.ctp:38 /Users/add.ctp:9 /Users/admin_add.ctp:34
+#: /Users/admin_edit.ctp:38 /Users/login.ctp:26
+msgid "Submit"
+msgstr "Odeslat"
+
+#: /Reservations/admin_add.ctp:7 /Reservations/admin_edit.ctp:8
+#: /Reservations/admin_view.ctp:20 /RoomTypes/admin_view.ctp:22
+msgid "List Reservations"
+msgstr "Seznam Rezervací"
+
+#: /Reservations/admin_add.ctp:9
+msgid "Admin Add Reservation"
+msgstr "Přidat rezervaci jako Admin"
+
+#: /Reservations/admin_edit.ctp:7 /RoomTypes/admin_edit.ctp:7
+#: /Users/admin_edit.ctp:7
+msgid "Delete"
+msgstr "Smazat"
+
+#: /Reservations/admin_edit.ctp:7 /Reservations/admin_index.ctp:48
+#: /Reservations/admin_view.ctp:19 /RoomTypes/admin_edit.ctp:7
+#: /RoomTypes/admin_index.ctp:36 /RoomTypes/admin_view.ctp:19;98
+#: /Users/admin_edit.ctp:7 /Users/admin_index.ctp:40 /Users/admin_view.ctp:19
+msgid "Are you sure you want to delete # %s?"
+msgstr "Jste si jist že chcete smazat # %s?"
+
+#: /Reservations/admin_edit.ctp:10
+msgid "Admin Edit Reservation"
+msgstr "Upravit rezervace jako Admin"
+
+#: /Reservations/admin_edit.ctp:25 /Reservations/admin_view.ctp:34
+#: /RoomTypes/admin_edit.ctp:25 /RoomTypes/admin_view.ctp:34;71
+#: /Users/admin_edit.ctp:25 /Users/admin_view.ctp:32
+msgid "Id"
+msgstr "Id"
+
+#: /Reservations/admin_index.ctp:6 /Reservations/admin_view.ctp:21
+#: /RoomTypes/admin_view.ctp:23
+msgid "New Reservation"
+msgstr "Nová rezervace"
+
+#: /Reservations/admin_index.ctp:8
+msgid "Reservations"
+msgstr "Rezervace"
+
+#: /Reservations/admin_index.ctp:56 /RoomTypes/admin_index.ctp:44
+#: /Users/admin_index.ctp:48
+msgid ""
+"Page {:page} of {:pages}, showing {:current} records out of {:count} total, "
+"starting on record {:start}, ending on {:end}"
+msgstr ""
+"Stránka {:page} z {:pages}, zobrazuji {:current} záznamů ze {:count}, "
+"začátek na záznamu {:start}, konec na {:end}"
+
+#: /Reservations/admin_view.ctp:5
+msgid "Reservation"
+msgstr "Rezervace"
+
+#: /Reservations/admin_view.ctp:18
+msgid "Edit Reservation"
+msgstr "Upravit rezervaci"
+
+#: /Reservations/admin_view.ctp:19
+msgid "Delete Reservation"
+msgstr "Smazat rezervaci"
+
+#: /Reservations/admin_view.ctp:22 /RoomTypes/admin_add.ctp:7
+#: /RoomTypes/admin_edit.ctp:8 /RoomTypes/admin_view.ctp:20
+msgid "List Room Types"
+msgstr "Seznam typů pokojů"
+
+#: /Reservations/admin_view.ctp:23 /RoomTypes/admin_index.ctp:6
+#: /RoomTypes/admin_view.ctp:21
+msgid "New Room Type"
+msgstr "Nový typ pokoje"
+
+#: /Reservations/admin_view.ctp:70 /RoomTypes/admin_add.ctp:24
+#: /RoomTypes/admin_edit.ctp:28 /RoomTypes/admin_view.ctp:5;40
+msgid "Room Type"
+msgstr "Typ pokoje"
+
+#: /RoomTypes/admin_add.ctp:9
+msgid "Admin Add Room Type"
+msgstr "Přidat typ pokoje jako Admin"
+
+#: /RoomTypes/admin_add.ctp:27 /RoomTypes/admin_edit.ctp:31
+#: /RoomTypes/admin_view.ctp:46
+msgid "Price Night"
+msgstr "Cena za noc"
+
+#: /RoomTypes/admin_add.ctp:30 /RoomTypes/admin_edit.ctp:34
+#: /RoomTypes/admin_view.ctp:52
+msgid "Price Person"
+msgstr "Cena za osobu"
+
+#: /RoomTypes/admin_edit.ctp:10
+msgid "Admin Edit Room Type"
+msgstr "Upravit typy pokojů jako Admin"
+
+#: /RoomTypes/admin_index.ctp:8
+msgid "Room Types"
+msgstr "Typy pokojů"
+
+#: /RoomTypes/admin_view.ctp:18
+msgid "Edit Room Type"
+msgstr "Upravit "
+
+#: /RoomTypes/admin_view.ctp:19
+msgid "Delete Room Type"
+msgstr "Smazat typ pokojů"
+
+#: /RoomTypes/admin_view.ctp:66
+msgid "Related Reservations"
+msgstr "Související rezervace"
+
+#: /RoomTypes/admin_view.ctp:96
+msgid "<span class=\"glyphicon glyphicon-search\"></span>"
+msgstr "<span class=\"glyphicon glyphicon-search\"></span>"
+
+#: /RoomTypes/admin_view.ctp:97
+msgid "<span class=\"glyphicon glyphicon-edit\"></span>"
+msgstr "<span class=\"glyphicon glyphicon-edit\"></span>"
+
+#: /RoomTypes/admin_view.ctp:98
+msgid "<span class=\"glyphicon glyphicon-remove\"></span>"
+msgstr "<span class=\"glyphicon glyphicon-remove\"></span>"
+
+#: /RoomTypes/admin_view.ctp:107
+msgid ""
+"<span class=\"glyphicon glyphicon-plus\"></span>&nbsp;&nbsp;New Reservation"
+msgstr ""
+"<span class=\"glyphicon glyphicon-plus\"></span>&nbsp;&nbsp;Nová rezervace"
+
+#: /Users/add.ctp:4
+msgid "Add User"
+msgstr "Přidat uživatele"
+
+#: /Users/admin_add.ctp:7 /Users/admin_edit.ctp:8 /Users/admin_view.ctp:20
+msgid "List Users"
+msgstr "Seznam uživatelů"
+
+#: /Users/admin_add.ctp:9
+msgid "Admin Add User"
+msgstr "Přidat uživatele jako Admin"
+
+#: /Users/admin_add.ctp:24 /Users/admin_edit.ctp:28 /Users/admin_view.ctp:38
+#: /Users/login.ctp:24
+msgid "Username"
+msgstr "Přihlašovací jméno"
+
+#: /Users/admin_add.ctp:27 /Users/admin_edit.ctp:31 /Users/admin_view.ctp:44
+#: /Users/login.ctp:25
+msgid "Password"
+msgstr "Heslo"
+
+#: /Users/admin_add.ctp:30 /Users/admin_edit.ctp:34 /Users/admin_view.ctp:50
+msgid "Mail"
+msgstr "Mail"
+
+#: /Users/admin_edit.ctp:10
+msgid "Admin Edit User"
+msgstr "Upravit uživatele jako Admin"
+
+#: /Users/admin_index.ctp:6 /Users/admin_view.ctp:21
+msgid "New User"
+msgstr "Nový uživatel"
+
+#: /Users/admin_index.ctp:8
+msgid "Users"
+msgstr "Uživatelé"
+
+#: /Users/admin_view.ctp:5
+msgid "User"
+msgstr "Uživatel"
+
+#: /Users/admin_view.ctp:18
+msgid "Edit User"
+msgstr "Upravit uživatele"
+
+#: /Users/admin_view.ctp:19
+msgid "Delete User"
+msgstr "Smazat uživatele"
+
+#: /Users/admin_view.ctp:56
+msgid "Created"
+msgstr "Vytvořeno"
+
+#: /Users/admin_view.ctp:62
+msgid "Modified"
+msgstr "Upraveno"
+
+#: /Users/login.ctp:14
+msgid "Sign in"
+msgstr "Přihlásit se"
+
+#: /Users/login.ctp:21
+msgid "Fill in your credentials please"
+msgstr "Vyplňte vaše přihlašovací údaje prosím"
+
+#: /ReservationsController.php:18;47;63
+msgid "The reservation has been saved."
+msgstr "Rezervace byla uložena."
+
+#: /ReservationsController.php:22;50;66
+msgid "The reservation could not be saved. Please, try again."
+msgstr "Rezervace nemohla být uloženo. Prosím, zkuste to znovu."
+
+#: /ReservationsController.php:37;59;79
+msgid "Invalid reservation"
+msgstr "Neplatná rezervace"
+
+#: /ReservationsController.php:83
+msgid "The reservation has been deleted."
+msgstr "Rezervace byla smazána."
+
+#: /ReservationsController.php:85
+msgid "The reservation could not be deleted. Please, try again."
+msgstr "Rezervace nemohla být smazána. Prosím zkuste to znovu."
+
+#: /RoomtypesController.php:17;37;55
+msgid "Invalid room type"
+msgstr "Neplatný typ pokoje"
+
+#: /RoomtypesController.php:27;41
+msgid "The room type has been saved."
+msgstr "Typ pokoje byl uložen."
+
+#: /RoomtypesController.php:30;44
+msgid "The room type could not be saved. Please, try again."
+msgstr "Typ pokoje nemohl být uložen. Prosím, zkuste to znovu."
+
+#: /RoomtypesController.php:59
+msgid "The room type has been deleted."
+msgstr "Typ pokoje byl smazán."
+
+#: /RoomtypesController.php:61
+msgid "The room type could not be deleted. Please, try again."
+msgstr "Typ pokoje nemohl být smazán. Prosím, zkuste to znovu."
+
+#: /UsersController.php:16
+msgid "Invalid username or password, try again"
+msgstr "Neplatné jméno nebo heslo, zkuste to znovu"
+
+#: /UsersController.php:32;53;74
+msgid "Invalid user"
+msgstr "Neplatný uživatel"
+
+#: /UsersController.php:41;57
+msgid "The user has been saved"
+msgstr "Uživatel byl uložen"
+
+#: /UsersController.php:45;61
+msgid "The user could not be saved. Please, try again."
+msgstr "Uživatel nebyl uložen. Prosím, zkuste to znovu."
+
+#: /UsersController.php:77
+msgid "User deleted"
+msgstr "Uživatel byl smazán"
+
+#: /UsersController.php:80
+msgid "User was not deleted"
+msgstr "Uživatel nebyl smazán"
+
+#: /Errors/error400.ctp:10 /Errors/error500.ctp:10
+msgid "Error"
+msgstr "Error"
+
+#: /Errors/error400.ctp:12
+msgid "The requested address %s was not found on this server."
+msgstr "Požadovaná adresa %s nebyla nalezena na tomto serveru."
+
+#: /Errors/error500.ctp:11
+msgid "An Internal Error Has Occurred."
+msgstr "Nastal vnitřní error."
+
+#: /Layouts/default.ctp:8 /Layouts/error.ctp:8
+msgid "CakePHP: the rapid development php framework"
+msgstr "CakePHP: the rapid development php framework"

@@ -26,6 +26,6 @@
     <h1>Hotel Paradise</h1>
     <h4>E-mail: H.Paradise@seznam.cz</h4>
     <h4>IČ: 658 401 11</h4>
-    <h4>Ředitel: Mgr. Iveta Krajíčková</h4>
-    <h4>Zástupce ředitele: Mgr. Monika Štěpánková</h4>
+    <h4>Ředitel: Ing. Iveta Krajíčková</h4>
+    <h4>Zástupce ředitele: Ing. Monika Štěpánková</h4>
 </div>

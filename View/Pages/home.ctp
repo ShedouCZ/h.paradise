@@ -43,16 +43,16 @@
         <div class="col-lg-4">
             <h2>About</h2>
             <p>Want to know more about us? So go ahead and read about all our services. Just click on more.</p>
-                <p><a class="btn btn-primary" href="/o-nas" role="button">More »</a></p>
+                <p><a class="btn btn-primary" href="/about" role="button">More »</a></p>
             </div>
             <div class="col-lg-4">
                 <h2>Price list</h2>
                 <p>For little money you can buy from us a very good services. See for yourself.</p>
-                <p><a class="btn btn-primary" href="/cenik" role="button">More »</a></p>
+                <p><a class="btn btn-primary" href="/price-list" role="button">More »</a></p>
             </div>
             <div class="col-lg-4">
                 <h2>Contact</h2>
                 <p>Ask us anything about our service we will be happy to answer!</p>
-                <p><a class="btn btn-primary" href="/kontakt" role="button">More »</a></p>
+                <p><a class="btn btn-primary" href="/contact" role="button">More »</a></p>
             </div>
         </div>

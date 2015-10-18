@@ -24,7 +24,6 @@
 	</div>
 
 	<div class="jumbotron">
-
 		<div class="row">
 			<div class="col-md-12">
 				<?php echo $this->Form->create('Reservation', array('role'=>'form', 'class'=>'form-horizontal')); ?>
@@ -38,10 +37,10 @@
 				<div class="form-group">
 					<?php echo $this->Form->input('phone', array('class'=>'form-control', 'placeholder'=>__('Phone')));?>
 				</div>
-				<div class="form-group ">
+				<div class="form-group">
 					<?php echo $this->Form->input('from', array('class'=>'date form-control', 'placeholder'=>__('From')));?>
 				</div>
-				<div class="form-group ">
+				<div class="form-group">
 					<?php echo $this->Form->input('to', array('class'=>'date form-control', 'placeholder'=>__('To')));?>
 				</div>
 				<div class="form-group">

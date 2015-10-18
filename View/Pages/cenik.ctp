@@ -34,7 +34,7 @@
             <tr>
                 <td>Jednolůžkový apartmán</td>
                 <td>500 Kč vč. snídaně</td>
-                <td>400 Kč vč. snídaně</td>
+                <td>500 Kč vč. snídaně</td>
             </tr>
             <tr>
                 <td>Dvoulůžkový apartmán</td>
