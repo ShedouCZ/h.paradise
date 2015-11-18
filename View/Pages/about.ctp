@@ -106,7 +106,7 @@
 <div class="jumbotron">
     <h1>Sources</h1>
     <p class="lead">
-        We are not the owners of any of the pictures on this site outside of our logo.
+        We are not the owners of any of the pictures on this site outside of our logo.<br>
         The pictures were downloaded from these sites:<br>
         <ul>
             <li><a href="http://www.bezvapobyt.cz/hotely/59-horsky-hotel-celadenka">Bezvapobyt</a></li>
