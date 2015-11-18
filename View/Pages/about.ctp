@@ -112,10 +112,10 @@
             <li><a href="http://www.bezvapobyt.cz/hotely/59-horsky-hotel-celadenka">Bezvapobyt</a></li>
             <li><a href="http://www.janmiklin.cz/galerie/chko-palava-a-nove-mlyny/devin-devicky-palava-4429.html">JanMiklin</a></li>
             <li><a href="http://pribehy.czechtourism.com/cs/story/palava/moravske-more.aspx">CzechTourism</a></li>
-            <li><a href="http://cestovani.lidovky.cz/foto.aspx?foto1=APE4b7d34_palava1.jpg">CzechTourism</a></li>
             <li><a href="http://www.slevy.cz/i.php/1500?1500DLG3IH">Slevy.cz</a></li>
             <li><a href="http://www.bonato.cz/images/foto1b.jpg">Bonato</a></li>
             <li><a href="http://www.firmanazazitky.cz/romanticka-vecere-pod-krapniky">Firma Na Zážitky</a></li>
             <li><a href="http://static.wixstatic.com/media/78646e_2e339a234ac64f62b649f8caac897b73.jpg_srz_1400_933_85_22_0.50_1.20_0.00_jpg_srz">SultanAhmethAmam</a></li>
+            <li><a href="http://www.resort-johanka.cz/">Resort Johanka</a></li>
         </ul>
 </div>
